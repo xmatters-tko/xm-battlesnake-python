@@ -1,0 +1,7 @@
+{
+  "name": "BattleSnake Python Example",
+  "description": "A simple BattleSnake AI written in Python.",
+  "repository": "https://github.com/xmatters-tko/battlesnake-python",
+  "website": "http://battlesnake.io",
+  "keywords": ["battlesnake","xmatters"]
+}

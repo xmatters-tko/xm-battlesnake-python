@@ -1,7 +1,5 @@
 {
-  "name": "BattleSnake Python Example",
-  "description": "A simple BattleSnake AI written in Python.",
-  "repository": "https://github.com/xmatters-tko/battlesnake-python",
-  "website": "http://battlesnake.io",
-  "keywords": ["battlesnake","xmatters"]
+  "name": "BattleSanake on Heroku: Python",
+  "description": "A Simple BattleSnake app using Python, which can easily be deployed to Heroku.",
+  "repository": "https://github.com/xmatters-tko/xm-battlesnake-python.git"
 }

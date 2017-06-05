@@ -5,7 +5,7 @@ A simple [BattleSnake AI](http://battlesnake.io) written in Python.
 To get started you'll need a working Python development environment, and at least read the Heroku docs on [deploying a Python app](https://devcenter.heroku.com/articles/getting-started-with-python). This AI client uses the [bottle web framework](http://bottlepy.org/docs/dev/index.html) to serve requests and the [gunicorn web server](http://gunicorn.org/) for running bottle on Heroku. Dependencies are listed in [requirements.txt](requirements.txt).
 
 ## Pre-requisite Accounts
-Every team must show up with a laptop and create the following accounts in order to use the provided start snake. You are welcome to use an existing accounts if you have them already.
+Every team must show up with a laptop and create the following accounts in order to use the provided start snake. You are welcome to use existing accounts if you have them already.
 * Create a free account on Github - https://www.github.com/
 * Create a free account on Heroku - https://www.heroku.com/
 

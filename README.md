@@ -59,12 +59,14 @@ $ curl localhost:5000/move -X POST -H "Content-Type: application/json" -d '{ "yo
 
 ## Deploying to Heroku
 
-### Create an App
-Next, create an application on Heroku and give it a name that represents your project. This will create a remote git repo for Heroku to use to deploy and run your project.
-**NOTE: APP Name must start with a letter and can only contain lowercase letters, numbers, and dashes.**
+You will be provided a heroku project name to deploy your snake to
+inside your git repo  do the following commands 
 ```sh
-$ heroku create [APP NAME]
-$ git push heroku master
+$ heroku git:remote -a [HEROKU_PROJECT_NAME]
+```
+then everytime you want to deploy changes you can simply do  
+```sh
+ $ git push heroku master
 ```
 The output should end with the URL endpoint of your snake. Use this URL to add your snake to a game on the server.
 ```
